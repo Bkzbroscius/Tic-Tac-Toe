@@ -1,0 +1,57 @@
+.col1, .col2, .col3 {
+    border: 1px solid #000000;
+    width: 100px;
+    height: 100px;
+  
+  
+} 
+
+.row1 {
+    
+    margin: 0 auto;
+}
+
+.col1, .col2, .col3 {
+    float: left;
+}
+
+.break {
+    clear: both;
+}
+
+table, tr, td {
+    border: 1px solid #000000;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 4em;
+    color: #ff0000;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.btn-group {
+    position: relative;
+    left: 47%;
+    margin-bottom: 20px;
+}
+
+.btn-group .btn-default {
+    background: #00ffff;
+}
+
+#message {
+    text-align: center;
+}
+
+#reset {
+    text-align: center;
+    padding: 10px;
+}
+
+    

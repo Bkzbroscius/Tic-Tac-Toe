@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Tic Tac Toe</title>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="ticTacToe.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="tic-tac-toe.js"></script>
+  </head>
+  <body class="container">
+    <h1 class="text-center">Tic Tac Toe</h1>
+      <h3 class="text-center">Do you want to play X or O? Click on X or O button below</h3>
+    <div class="btn-group">
+    <button type="button" class="btn btn-default" id="chooseX" value="X">X</button>
+    <button type="button" class="btn btn-default" id="chooseO" value="O">O</button>
+    </div>
+      <span id="message"></span>
+    <table>
+        <tr>
+            <td id="1" class="board"></td>
+            <td id="2" class="board"></td>
+            <td id="3" class="board"></td>
+        </tr>
+        <tr>
+            <td id="4" class="board"></td>
+            <td id="5" class="board"></td>
+            <td id="6" class="board"></td>
+        </tr>
+        <tr>
+            <td id="7" class="board"></td>
+            <td id="8" class="board"></td>
+            <td id="9" class="board"></td>
+        </tr>
+    </table>
+      <div id="reset"><button type="button" class="btn btn-primary" id="newGame">Start New Game</button></div>
+  </body>
+</html>
